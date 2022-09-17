@@ -82,6 +82,10 @@ header nav {
     border-radius: 10rem;
     padding: 0.4rem 1rem;
     color: #fff;
+    transition: 0.4s;
+}
+.btn :hover {
+    background-color: #fff;
 }
 
 /*Conteudo main*/
@@ -210,7 +214,7 @@ header nav {
 }
 
 /* Mobile */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     #navbar li {
         display: none;
     }
